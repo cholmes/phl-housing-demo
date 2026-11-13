@@ -130,7 +130,7 @@
       "type": "binary"
     }
   ],
-  "updated": "2026-11-06T12:15:35Z",
+  "updated": "2026-11-13T15:06:03Z",
   "pmtiles:min_zoom": 0,
   "pmtiles:max_zoom": 14,
   "pmtiles:tile_type": "mvt",
@@ -158,7 +158,7 @@
       "interval": [
         [
           "2026-08-26T12:27:17Z",
-          "2026-11-06T12:24:06Z"
+          "2026-11-13T12:23:36Z"
         ]
       ]
     }
@@ -195,22 +195,22 @@
       "roles": [
         "data"
       ],
-      "version": "2026-11-06",
-      "created": "2026-11-06T12:15:35Z",
-      "phl:source_updated": "2026-11-06T12:24:06Z",
+      "version": "2026-11-13",
+      "created": "2026-11-13T15:06:03Z",
+      "phl:source_updated": "2026-11-13T12:23:36Z",
       "table:row_count": 198,
-      "phl:content_hash": "1736057313230304820166:198",
+      "phl:content_hash": "1773941056056311109815:198",
       "phl:repaired_geometries": 0,
       "phl:null_geometries": 0,
-      "file:size": 8468653,
-      "file:checksum": "122015983cadbc6c0824c7fdd1692640b962f1978af90774399fd494fe48b502c729"
+      "file:size": 8468698,
+      "file:checksum": "1220b5d574d1c6f0e97d5887b6dd014a8f38afa7d8e376ef10a5a24e0b2acba06ea7"
     },
     "zoning_overlays-tiles": {
       "href": "https://data.source.coop/nlebovits/phl-housing-demo/zoning_overlays/zoning_overlays.pmtiles",
       "type": "application/vnd.pmtiles",
       "title": "zoning_overlays (vector tiles)",
-      "file:size": 1860754,
-      "file:checksum": "1220505b3c13a7abbb59d4093b977360e7a4b3c92a2837b16f589fc49131387aab94",
+      "file:size": 1860705,
+      "file:checksum": "12206d00215d093d3b3e447cde4168db7a77dddaa67e4d1736af997f2b578acf3347",
       "roles": [
         "visual"
       ]
@@ -275,10 +275,27 @@
       "phl:null_geometries": 0,
       "file:size": 8477047,
       "file:checksum": "1220f76c39b382dd42244345f73f025ee159ec3dcd823253b009eb9b198b7dbe803e"
+    },
+    "version-2026-11-06": {
+      "href": "https://data.source.coop/nlebovits/phl-housing-demo/zoning_overlays/versions/2026-11-06.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "zoning_overlays as extracted on 2026-11-06",
+      "roles": [
+        "archive"
+      ],
+      "version": "2026-11-06",
+      "created": "2026-11-06T12:15:35Z",
+      "phl:source_updated": "2026-11-06T12:24:06Z",
+      "table:row_count": 198,
+      "phl:content_hash": "1736057313230304820166:198",
+      "phl:repaired_geometries": 0,
+      "phl:null_geometries": 0,
+      "file:size": 8468653,
+      "file:checksum": "122015983cadbc6c0824c7fdd1692640b962f1978af90774399fd494fe48b502c729"
     }
   },
-  "version": "2026-11-06",
-  "phl:source_updated": "2026-11-06T12:24:06Z",
+  "version": "2026-11-13",
+  "phl:source_updated": "2026-11-13T12:23:36Z",
   "phl:update_frequency": "unstated",
   "phl:update_frequency_source": "https://opendataphilly.org/datasets/zoning-overlays/"
 }
