@@ -61,8 +61,8 @@
     "https://stac-extensions.github.io/version/v1.2.0/schema.json"
   ],
   "geoparquet:geometry_type": "MultiPolygon",
-  "geoparquet:feature_count": 608124,
-  "table:row_count": 608124,
+  "geoparquet:feature_count": 608176,
+  "table:row_count": 608176,
   "table:primary_geometry": "geometry",
   "table:columns": [
     {
@@ -234,7 +234,7 @@
       "type": "binary"
     }
   ],
-  "updated": "2026-11-13T15:06:03Z",
+  "updated": "2026-11-20T15:55:12Z",
   "pmtiles:min_zoom": 0,
   "pmtiles:max_zoom": 13,
   "pmtiles:tile_type": "mvt",
@@ -262,7 +262,7 @@
       "interval": [
         [
           "2026-08-26T12:27:17Z",
-          "2026-11-13T12:54:47Z"
+          "2026-11-20T12:39:40Z"
         ]
       ]
     }
@@ -299,22 +299,22 @@
       "roles": [
         "data"
       ],
-      "version": "2026-11-13",
-      "created": "2026-11-13T15:06:03Z",
-      "phl:source_updated": "2026-11-13T12:54:47Z",
-      "table:row_count": 608124,
-      "phl:content_hash": "5614165006807959054953945:608124",
+      "version": "2026-11-20",
+      "created": "2026-11-20T15:55:12Z",
+      "phl:source_updated": "2026-11-20T12:39:40Z",
+      "table:row_count": 608176,
+      "phl:content_hash": "5606082044594536348087713:608176",
       "phl:repaired_geometries": 0,
       "phl:null_geometries": 37,
-      "file:size": 69355278,
-      "file:checksum": "12204f82780262376dc081220a627c321dbc1cebefef1273f7fca41b05e0a3ff5f46"
+      "file:size": 69353025,
+      "file:checksum": "1220db9bd17d5eef209f63cfd6ef8656a16a1b3863327a6f15ac4071747b6caf67f8"
     },
     "dor_parcel-tiles": {
       "href": "https://data.source.coop/nlebovits/phl-housing-demo/dor_parcel/dor_parcel.pmtiles",
       "type": "application/vnd.pmtiles",
       "title": "dor_parcel (vector tiles)",
-      "file:size": 152778972,
-      "file:checksum": "122080e40a86bb06091b0ec1082001723626c1124176328e3c06be2b6e556079aed6",
+      "file:size": 152799011,
+      "file:checksum": "1220ea7744afceafec05d0898fba5d58abdae6b39e1543a5ee63d41d0f6a99b8e8e8",
       "roles": [
         "data"
       ]
@@ -406,10 +406,27 @@
       "phl:null_geometries": 37,
       "file:size": 69355273,
       "file:checksum": "1220a7179a0c44759f966aeed7d35d38aa568c986bd12e9ec80cc6a8515dcdcf6159"
+    },
+    "version-2026-11-13": {
+      "href": "https://data.source.coop/nlebovits/phl-housing-demo/dor_parcel/versions/2026-11-13.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "dor_parcel as extracted on 2026-11-13",
+      "roles": [
+        "archive"
+      ],
+      "version": "2026-11-13",
+      "created": "2026-11-13T15:06:03Z",
+      "phl:source_updated": "2026-11-13T12:54:47Z",
+      "table:row_count": 608124,
+      "phl:content_hash": "5614165006807959054953945:608124",
+      "phl:repaired_geometries": 0,
+      "phl:null_geometries": 37,
+      "file:size": 69355278,
+      "file:checksum": "12204f82780262376dc081220a627c321dbc1cebefef1273f7fca41b05e0a3ff5f46"
     }
   },
-  "version": "2026-11-13",
-  "phl:source_updated": "2026-11-13T12:54:47Z",
+  "version": "2026-11-20",
+  "phl:source_updated": "2026-11-20T12:39:40Z",
   "phl:update_frequency": "weekly",
   "phl:update_frequency_source": "https://opendataphilly.org/datasets/department-of-records-property-parcels/"
 }
